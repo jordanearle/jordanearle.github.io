@@ -1,0 +1,406 @@
+/** JORDAN EARLE - CSS
+
+1. LAYOUT
+2. TYPOGRAPHY
+3. IMAGES
+
+**/
+
+/** LAYOUT **/
+
+body{
+  margin: 0px;
+  padding: 0px;
+  min-width: 1280px;}
+
+:selection {
+  background-color: #20253F;
+  color: #ffffff;}
+
+
+.hero { background-color: #ffffff; height: 900px; }
+.Thinkspace { background-color: #fff; height: 640px; }
+.YouthEast { background-color: #fff; height: 520px; }
+.Create { background-color: #ffffff; height: 610px; }
+.Portfolio {
+              background:
+              linear-gradient(-180deg, rgba(43,43,43,0.77) 0%, rgba(0,0,0,0.40) 100%),
+              url(../img/jurassic.jpg);
+              background-size: cover;
+              height: 300px; }
+.Footer { height: 250px; background-color: #D0D0D0; }
+
+
+.NavBar {
+  padding-left: 2em;
+  padding-top: 2em;
+  display: table;
+  padding-bottom: 2em;}
+
+.Bio {
+  width: 45%;
+  margin-left: 22.7em;
+  padding-bottom: 1em;}
+
+.SocialButtonsBio {
+  margin-left: 22.7em;
+  padding-bottom: 4em;}
+
+.PhotoAbout {
+  margin-left: 2em;
+  display: inline-block;}
+
+.TextAbout {
+  display: inline-block;
+  width: 28%;}
+
+.TextAbout2 {
+  display: inline-block;
+  width: 28%;
+  margin-bottom: -2em;}
+
+.PressLogosCont {
+  display: inline-block;}
+
+.PortfolioCont {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 1em;}
+
+
+
+/** TYPOGRAPHY **/
+
+.NavText {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 4em;}
+
+a.NavLink {
+  text-decoration: none;
+  padding: 5px;
+  color: #BFBFBF}
+
+a.NavLink1 {
+  text-decoration: none;
+  padding: 5px;
+  color: #747474;}
+
+a.NavLink1:hover {
+  padding: 5px;
+  background-color: #EEEEEE;
+  transition: background .25s ease-in-out;}
+
+a.NavLink:hover {
+  padding: 5px;
+  background-color: #EEEEEE;
+  transition: background .25s ease-in-out;}
+
+.Hey {
+  font-family: "gesta",sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #6B6B6B;}
+
+.BioLight {
+  font-family: "gesta",sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  color: #7A7A7A;}
+
+.MoreBio {
+  font-family: "gesta",sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+  color: #7A7A7A;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.6;}
+
+.SlantedImgSubtitle {
+  font-family: "gesta",sans-serif;
+  font-size: 2.8em;
+  font-weight: 200;
+  color: #767676;
+  margin-bottom: -0.05em;}
+
+.SlantedImgTwitter {
+  font-family: "gesta",sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #CBCBCB;}
+
+a.HandleLink {
+  text-decoration: none;
+  border-bottom: 2px solid #9DD6DC;
+  color: #CBCBCB;
+  padding-top: 2px;
+  padding-bottom: 2px;}
+
+a.HandleLink:hover {
+  background: #9DD6DC;
+  Color: #fff;
+  border-bottom: 2px solid #9DD6DC;
+  transition: background .25s ease-in-out;}
+
+.AboutText {
+  font-family: "gesta",sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  color: #A9A9A9;
+  line-height: 1.55em;}
+
+.FeaturedAbout {
+  font-family: "gesta",sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+  color: #7A7A7A;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.6;}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 50%;
+  opacity: 0.2;}
+
+.PortfolioLink {
+  font-family: "gesta",sans-serif;
+  font-size: 2.8em;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: -0.01em;
+}
+
+.PortfolioA {
+  opacity: 0.6;
+  text-decoration: none;}
+
+.PortfolioA:hover {
+  opacity: 0.9;
+  transition: .5s ease-in-out;}
+
+.PortfolioSubTitle {
+  font-family: "gesta",sans-serif;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #fff;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  padding-right: 0.1em;}
+
+.FooterType {
+  font-family: "gesta",sans-serif;
+  font-size:12px;
+  font-weight: 300;
+  letter-spacing: 0.2em;}
+
+.FooterLinkType {
+  font-family: "gesta",sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+  line-height: 1.5em;}
+
+a.FooterLinkStyle  {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #9DD6DC;}
+
+a.FooterLinkStyle:hover  {
+  background: #9DD6DC;
+  Color: #000;
+  border-bottom: 2px solid #9DD6DC;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  transition: background .25s ease-in-out;}
+
+.EndQuote {
+  font-family: "gesta",sans-serif;
+  font-size:12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: 0.3;}
+
+
+/** IMAGES **/
+.MonogramNav {
+  opacity: 0.4;
+  height: 70px;
+  display: inline-block;
+  padding-right: 18em;}
+
+.JTEProfile {
+  height: 300px;
+  margin-left: 22.7em;
+  padding-bottom: 2em;}
+
+.SocialBio {
+  opacity: 0.3;
+  padding-right: 1em;}
+
+.SocialBio:hover {
+  opacity: 0.8;
+  padding-right: 1em;
+  transition: 0.25s ease-in-out;}
+
+a.SocialLink {
+  text-decoration: none;}
+
+
+.Chevron {
+  padding-top: 1em;}
+
+.Chevron2 {
+  transform: rotate(270deg);
+  height: 15px;
+  display: inline-block;
+  opacity: 0.7;}
+
+.SlantedImg {
+  height: 275px;
+  margin-bottom: -2em;
+  padding-right: 15em;}
+
+.Logo1 {
+  height: 35px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: 0.4;
+  margin-right: 1.5em;}
+
+.Logo1:hover {
+  height: 35px;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+  margin-right: 1.5em;
+  transition: .5s ease-in-out;}
+
+.Logo2 {
+  height: 35px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: 0.4;
+  margin-right: 1.5em;}
+
+.Logo2:hover {
+  height: 35px;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+  margin-right: 1.5em;
+  transition: .5s ease-in-out;}
+
+.Logo3 {
+  height: 30px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: 0.4;
+  margin-right: 1.5em;}
+
+.Logo3:hover {
+  height: 30px;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+  margin-right: 1.5em;
+  transition: .5s ease-in-out;}
+
+.Logo4 {
+  height: 30px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: 0.4;
+  margin-right: 1.5em;}
+
+.Logo4:hover {
+  height: 30px;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+  margin-right: 1.5em;
+  transition: .5s ease-in-out;}
+
+.Logo5 {
+  height: 30px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: 0.4;
+  margin-right: 1.5em;}
+
+.Logo5:hover {
+  height: 30px;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+  margin-right: 1.5em;
+  transition: .5s ease-in-out;}
+
+.Logo6 {
+  height: 30px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: 0.4;
+  margin-right: 1.5em;}
+
+.Logo6:hover {
+  height: 30px;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+  margin-right: 1.5em;
+  transition: .5s ease-in-out;}
+
+.Logo7 {
+  height: 30px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: 0.4;
+  margin-right: 1.5em;}
+
+.Logo7:hover {
+  height: 30px;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+  margin-right: 1.5em;
+  transition: .5s ease-in-out;}
+
+.Logo8 {
+  height: 30px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: 0.4;
+  margin-right: 1.5em;}
+
+.Logo8:hover {
+  height: 30px;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+  margin-right: 1.5em;
+  transition: .5s ease-in-out;}
+
+.Logo9 {
+  height: 30px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  opacity: 0.4;
+  margin-right: 1.5em;}
+
+.Logo9:hover {
+  height: 30px;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  opacity: 1;
+  margin-right: 1.5em;
+  transition: .5s ease-in-out;}
+
+a.MediaLink {
+  text-decoration: none;}

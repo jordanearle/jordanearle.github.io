@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('TTtime').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div class="menubar">
+	<span class="menutext">jordanearle.com</span>
+	<span class="menutext">P102</span>
+	<span class="menutext"><span>
+		<script type="text/javascript">
+		var d=new Date()
+		var weekday=new Array(7)
+		weekday[0]="Sun"
+		weekday[1]="Mon"
+		weekday[2]="Tues"
+		weekday[3]="Wed"
+		weekday[4]="Thurs"
+		weekday[5]="Fri"
+		weekday[6]="Sat"
+		document.write(weekday[d.getDay()])
+</script></span>
+
+<span>		
+	<script type="text/javascript">
+		var d = new Date()
+		document.write(d.getDate())
+</script></span> 
+<span>
+	<script type="text/javascript">
+		var d=new Date()
+		var month=new Array(12)
+		month[0]="January"
+		month[1]="February"
+		month[2]="March"
+		month[3]="April"
+		month[4]="May"
+		month[5]="June"
+		month[6]="July"
+		month[7]="August"
+		month[8]="September"
+		month[9]="October"
+		month[10]="November"
+		month[11]="December"
+		document.write(month[d.getMonth()])
+	</script>
+</span>
+</span>
+	
+	<span class="menutext">
+		<span style="color: yellow;" id="TTtime"></span>
+	</span>
+</div>
+
+<div class="container">
+<img id="logo" src="img/logo.png" alt="Smiley face" height="auto" width="120%">
+</div>
+
+<div class="centersub">
+<div style="color: #FFFF00" id="subtitletext2">In the Beginning There Were Five: An Introduction</div>
+</div>
+
+<div class="bodytext">
+
+<p class="bodytexthighlight">
+With the Oxford English Dictionary adding the phrases 'binge-watch' and 'spoiler alert' to its repertoire in June 2018, it's clear that the television landscape is transforming.
+<p>
+
+<p class="bodytextnormal">
+To understand exactly how, we have to go back to the very basics. Television has existed from the very start with one simple goal in mind - to sell people products.
+<p>
+
+<p class="bodytextnormal">
+The very first television commercial aired on June 1st, 1941 for the Bulova Watch Co. The 10-second commercial reportedly cost $9 at the time, which is around $500 adjusted for inflation, making it a bargain by today's standards. 
+<p>
+
+<p class="bodytextnormal">
+In recent years, some companies have paid upwards of $5 million for advertisements during the annual US Super Bowl sporting event - paying for the privilege of promoting their product to an audience of around 100 million.<p>
+
+</div>
+
+<div class="subcontainer">
+<ul class="submenutext">
+	<li class="submenutextitem"><a class="submenutextitem" href="index.html">HOME 001</a></li>
+	<li class="submenutextitem"><a class="submenutextitem" href="#">ABOUT 367</a></li>
+	<li class="submenutextitem"><a class="submenutextitem" href="#">PRINT 995</a></li>
+	<li class="submenutextitem"><a class="submenutextitem" href="#">NEXT PG</a></li>
+</ul>
+
+</div>
+
+</body>

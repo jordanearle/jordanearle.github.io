@@ -1,0 +1,324 @@
+/** JORDAN EARLE - CSS
+
+1. LAYOUT
+2. TYPOGRAPHY
+3. IMAGES
+
+**/
+
+/** LAYOUT **/
+
+body{
+  margin: 0px;
+  padding: 0px;
+  min-width: 1280px;}
+
+:selection {
+  background-color: #20253F;
+  color: #ffffff;}
+
+
+.Nav { background-color: #ffffff; height: 900px; }
+.PorfolioFeatured { background-color: #F5F5F5; height: 440px; }
+.Portfolio { background-color: #fff; height: 840px; }
+.Create { background-color: #ffffff; height: 610px; }
+.Footer { height: 250px; background-color: #D0D0D0; }
+
+.NavBar {
+  padding-left: 2em;
+  padding-top: 2em;
+  display: table;
+  padding-bottom: 2em;}
+
+.HeroCont {
+  padding-left: 2em;
+  padding-top: 1em;
+  width: 800px;
+}
+
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 50%;
+  opacity: 0.2;}
+
+.PortfolioTitle {
+  padding-left: 2em;
+  margin-top: -1.5em;
+  margin-bottom: 2em;}
+
+.PortfolioItem1 {
+  width: 350px;
+  margin-bottom: 2em;
+  display: inline-block;
+  margin-top: 2em;
+  margin-right: 20em;}
+
+.PortfolioItem2 {
+  width: 350px;
+  display: inline-block;
+}
+
+.PortfolioRow {
+  position: relative;
+  display: block;
+  text-align: center;}
+
+a.PortfolioLink {
+text-decoration: }
+
+a.PortfolioLink:hover {
+  opacity: 0.8;
+  transition: .25s ease-in-out;}
+
+  /** TYPOGRAPHY **/
+
+  .NavText {
+    font-family: "gesta",sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 4em;}
+
+  a.NavLink {
+    text-decoration: none;
+    padding: 5px;
+    color: #BFBFBF}
+
+  a.NavLink1 {
+    text-decoration: none;
+    padding: 5px;
+    color: #747474;}
+
+  a.NavLink1:hover {
+    padding: 5px;
+    background-color: #EEEEEE;
+    transition: background .25s ease-in-out;}
+
+  a.NavLink:hover {
+    padding: 5px;
+    background-color: #EEEEEE;
+    transition: background .25s ease-in-out;}
+
+.PortfolioHeader {
+  font-family: "gesta",sans-serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  color: #7A7A7A;
+  margin-bottom: -0.001em;}
+
+.PortfolioSubtitle {
+  font-family: "gesta",sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #7A7A7A;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.8;}
+
+a.SubLink {
+  text-decoration: none;
+  border-bottom: 2px solid #9DD6DC;
+  color:#7A7A7A;
+  padding-top: 2px;
+  padding-bottom: 2px;}
+
+a.SubLink:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #9DD6DC;
+  color:#7A7A7A;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #9DD6DC;
+  transition: background .25s ease-in-out;}
+
+.HeroImage {
+  height: 300px;
+  width: 100%;
+  background-image: url(../img/portfolio/createbg.png);
+  background-size: cover;}
+
+.HeroTitle {
+  font-family: "gesta",sans-serif;
+  font-size: 2.5em;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+  color: #888888;}
+
+a.HeroLink {
+  text-decoration: none;
+  color: #888888}
+
+a.HeroLink:hover {
+  opacity: 0.5;
+  transition: .25s ease-in-out;}
+
+.HeroText {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.2em;
+  color: #A9A9A9}
+
+.PortfolioItemText {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.2em;
+  color: #A9A9A9;
+  text-align: left;
+  margin-left: -14em;}
+
+.PortfolioItemText2 {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.2em;
+  color: #A9A9A9;
+  text-align: left;
+  margin-left: -10em;}
+
+.PortfolioItemText3 {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.2em;
+  color: #A9A9A9;
+  text-align: left;
+  margin-left: -12em;}
+
+  .PortfolioItemText4 {
+    font-family: "gesta",sans-serif;
+    font-size: 1.1em;
+    font-weight: 200;
+    line-height: 1.2em;
+    color: #A9A9A9;
+    text-align: left;
+    margin-left: -15em;}
+
+.TagRow {
+margin-left: -4em;
+}
+
+.FooterType {
+  font-family: "gesta",sans-serif;
+  font-size:12px;
+  font-weight: 300;
+  letter-spacing: 0.2em;}
+
+.FooterLinkType {
+  font-family: "gesta",sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+  line-height: 1.5em;}
+
+a.FooterLinkStyle  {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #9DD6DC;}
+
+a.FooterLinkStyle:hover  {
+  background: #9DD6DC;
+  Color: #000;
+  border-bottom: 2px solid #9DD6DC;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  transition: background .25s ease-in-out;}
+
+.EndQuote {
+  font-family: "gesta",sans-serif;
+  font-size:12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: 0.3;}
+
+  /** IMAGES **/
+
+.MonogramNav {
+  opacity: 0.4;
+  height: 70px;
+  display: inline-block;
+  padding-right: 18em;}
+
+.CreateLogo {
+  height: 100px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 5em;}
+
+.PortfolioImage1 {
+  width: 350px;
+  height: 250px;
+  background-image: url(../img/portfolio/youtheast.jpg);
+  background-size: cover;
+  margin-bottom: 1em;
+}
+
+.PortfolioImage2 {
+  width: 350px;
+  height: 250px;
+  background-image: url(../img/portfolio/travellise.jpg);
+  background-size: cover;
+  margin-bottom: 1em;}
+
+.PortfolioImage3 {
+  width: 350px;
+  height: 250px;
+  background-image: url(../img/portfolio/create.jpg);
+  background-size: cover;
+  margin-bottom: 1em;}
+
+.PortfolioImage4 {
+  width: 350px;
+  height: 250px;
+  background-image: url(../img/portfolio/alliance.jpg);
+  background-size: cover;
+  margin-bottom: 1em;}
+
+.PortfolioImage5 {
+  width: 350px;
+  height: 250px;
+  background-image: url(../img/portfolio/thinkspace.jpg);
+  background-size: cover;
+  margin-bottom: 1em;}
+
+.PortfolioImage6 {
+  width: 350px;
+  height: 250px;
+  background-image: url(../img/portfolio/takeover.jpg);
+  background-size: cover;
+  margin-bottom: 1em;}
+
+.PortfolioImage7 {
+  width: 350px;
+  height: 250px;
+  background-image: url(../img/portfolio/scene.jpg);
+  background-size: cover;
+  margin-bottom: 1em;}
+
+.PortfolioImage8 {
+  width: 350px;
+  height: 250px;
+  background-color: fuchsia;
+  background-image: url(../img/portfolio/ixd.jpg);
+  background-size: cover;
+  margin-bottom: 1em;}
+.tag1 {
+  height: 20px;
+  opacity: 0.4;
+  display: inline-block;
+  padding-right: 1em;
+  padding-top: 0.4em;
+  margin-left: -3.8em;
+}
+
+.tag {
+  height: 20px;
+  opacity: 0.4;
+  display: inline-block;
+  padding-right: 1em;
+}

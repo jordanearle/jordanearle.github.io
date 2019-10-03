@@ -1,0 +1,186 @@
+/** JORDAN EARLE - CSS
+
+1. LAYOUT
+2. TYPOGRAPHY
+3. IMAGES
+
+**/
+
+/** LAYOUT **/
+
+body{
+  margin: 0px;
+  padding: 0px;
+  min-width: 1280px;}
+
+:selection {
+  background-color: #20253F;
+  color: #ffffff;}
+
+
+.Nav { background-image: url(../img/travellise/bg.jpg); background-size: cover; height: 400px; }
+.Travellise { background-color: #ffffff; height: 1400px; }
+.Footer { height: 250px; background-color: #D0D0D0; }
+
+
+.NavBar {
+  padding-left: 2em;
+  padding-top: 2em;
+  display: table;
+  padding-bottom: 2em;}
+
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 50%;
+  opacity: 0.2;}
+
+.TravelliseContent {
+  margin: auto;
+  width: 55%;
+  padding-top: 2em;}
+
+.PortfolioItem {
+  margin-bottom: 5em;}
+
+  /** TYPOGRAPHY **/
+
+.NavText {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 4em;
+  opacity: 0.8;
+  color: #fff}
+
+  a.NavLink {
+    text-decoration: none;
+    padding: 5px;
+    color: #BFBFBF}
+
+  a.NavLink1 {
+    text-decoration: none;
+    padding: 5px;
+    color: #DFDFDF;}
+
+    a.NavLink1:hover {
+      padding: 5px;
+      background-color: #000;
+      opacity: 0.4;
+      transition: background .25s ease-in-out;}
+
+    a.NavLink:hover {
+      padding: 5px;
+      background-color: #000;
+      opacity: 0.4;
+      transition: background .25s ease-in-out;}
+
+.FooterType {
+  font-family: "gesta",sans-serif;
+  font-size:12px;
+  font-weight: 300;
+  letter-spacing: 0.2em;}
+
+.FooterLinkType {
+  font-family: "gesta",sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+  line-height: 1.5em;}
+
+a.FooterLinkStyle  {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #9DD6DC;}
+
+a.FooterLinkStyle:hover  {
+  background: #9DD6DC;
+  Color: #000;
+  border-bottom: 2px solid #9DD6DC;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  transition: background .25s ease-in-out;}
+
+.EndQuote {
+  font-family: "gesta",sans-serif;
+  font-size:12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: 0.3;}
+
+.TravelliseH1 {
+  font-family: "gesta",sans-serif;
+  color: #7E37FF;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-weight: 200;
+  opacity: 0.8;
+  letter-spacing: 0.02em;}
+
+.BackLink {
+  font-family: "gesta",sans-serif;
+  color: #BDBDBD;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 0.1em;}
+
+  a.SubLink {
+    text-decoration: none;
+    border-bottom: 2px solid #9DD6DC;
+    color:#7A7A7A;
+    padding-top: 2px;
+    padding-bottom: 2px;}
+
+  a.SubLink:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #9DD6DC;
+    color:#7A7A7A;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: #9DD6DC;
+    transition: background .25s ease-in-out;}
+
+  a.TitleLink {
+    text-decoration: none;
+    color: #7733F2;}
+
+  a.TitleLink:hover {
+    opacity: 0.6;}
+
+.TravelliseDesc {
+  font-family: "gesta",sans-serif;
+  font-size: 1.3em;
+  font-weight: 200;
+  line-height: 1.3em;
+  color: #8E8E8E;}
+
+.ItemDesc {
+  font-family: "gesta",sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.4em;
+  color: #8E8E8E;}
+
+.Bold {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.4em;
+  color: #8E8E8E;}
+
+  /** IMAGES **/
+
+.MonogramNav {
+  opacity: 0.5;
+  height: 70px;
+  display: inline-block;
+  padding-right: 18em;}
+
+.PortfolioItemImage {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 2em;}

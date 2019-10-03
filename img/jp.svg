@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="282px" height="166px" viewBox="0 0 282 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.141538462" y="0.0553846154" width="257.316923" height="141.396923" rx="8"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.199558424 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Jurassic-Park" transform="translate(-500.000000, -322.000000)">
+            <g id="Fence" transform="translate(252.000000, 67.500000)">
+                <g id="Group-2" transform="translate(260.000000, 267.000000)">
+                    <g id="Rectangle-35">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle-36" fill="#2C2C2C" x="15.4276923" y="16.6153846" width="126.110769" height="50.9538462"></rect>
+                    <ellipse id="Oval-1" fill="#E41C1C" cx="78.4830769" cy="41.7738462" rx="59.2338462" ry="21.6553846"></ellipse>
+                    <text id="DANGER" font-family="AkzidenzGroteskPro-Light, Akzidenz-Grotesk Pro" font-size="19.1076923" font-weight="300" fill="#D2D2D2">
+                        <tspan x="39.4556154" y="47.6213846">DANGER</tspan>
+                    </text>
+                    <text id="10,000" font-family="AkzidenzGroteskPro-Bold, Akzidenz-Grotesk Pro" font-size="24.2030769" font-weight="bold" fill="#353535">
+                        <tspan x="41.8275169" y="98.8938462">10,000</tspan>
+                    </text>
+                    <text id="VOLTS" font-family="AkzidenzGroteskPro-Regular, Akzidenz-Grotesk Pro" font-size="17.8338462" font-weight="normal" fill="#353535">
+                        <tspan x="51.7055569" y="120.281538">VOLTS</tspan>
+                    </text>
+                    <image id="Whole-Hand-50" x="176" y="48" width="39.4892308" height="39.4892308" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAABHdJREFUaAXNWTmIFUEQ/Z7rfa6KqOx6Iqzn4ioiIniAiSuCJgYmJqKg4MJ6JBsJRmIgiJppaiKyRpqYCEZitKIrGOwqLh4o3ud7/0/Nr990z5+Z7hktqN/VVdVVXdPV1T3zK5XioQsubgCvAZcV764YD+tg9o/CEdBjinA1ugijyuYaRZNsBbYp3nTQV4AfgH3AKcB/BtPg+SzwFHCOMYsz6OsVIb1b6fQY8l4lK5Xk032mJjMMepaawQUlk4COKPl1Q96vZJlI39Q6BG9Llcf5oLer/gxFC7lQCLQdiia52ein7voG8tviaaPiTVK0kPOEQLtY0SRnArnKAtS9DLwFtD0U0av4BsJ0MaFTMcYqWkhJvfFgcOIm6BJ9EUKmYjfwsKmo+76BfNbGIlpXKtuKsTgQpK316r9MT4EdQqA1V0+JKt4r8rbBWq3DyjU74n+1yCdGPNtqUcSSTGCK6SrYTqYLfFdkyGFY0oPngwkSwA9TEPXlwBQboqZXSnhx6xvIYGypkZANy5PcBR8dgm8Rn4enBtlbmhfTvoG8gKVPsbU6IZXJtWLU/A78Uh8SU+QTZOVqvSanvm8grFpPxJNq50b0K8UTskUItPL0FasiBcLcX6xyTvANhIYHLNbbI54ttfR9SvaDNjEq6phB2kp9PC5EIE9ja3ViVUTaqprkPic8uT4kpiS4cTGnRkjKGexa18xDq1ITpm3DMxBO0la1eEKzBHNlbA9SApAyDLUqmCsk/GprM9SgkKLz3KLDB7QVaCsEVGdVaydhgQkRb4EhM/dMgzhEIKxcNugG0/UUV0DWYRsEntzPqKPBZauqEyKQl7D0S3uM6P1oZeOa4tVgbDCZUV9Sa70hLzwQBsFgTOD1Yq/JjPqdaJl6NlgEJi+T5oolppbNUB7eQwxieTTxgYVHnXdAnhemPvvvgUctsnvgFQ634cE2qbw8llpzbH9SFCH2CO2/TnKSQyb7RA9NTK1QgbzRHguibfey2FWoQGwneOwkEFFKIK6DL1AMVTOlpNbPkDN22CplRUKlqCOGKruUQOQ9PGkivjLbh47YputJku+SxYMVkfjNSen5kJlWZCU8XQWOAIeBl4BbgK47E0RVkDdC6RfRJq6IdrgLHVYf80Rl/zFwD9AFdyCwjQvJO+hyrvlMI178mjm+D50TwOVAAt+j+4C8mTYb6yvfBx9NganDV9YszngI8g0wyxgf3QPw5QTZ0HRARe6LtMCr9tS0ygH0OEcnSCBUeARcCzwP5DX7f4Nctwd+ODgJHAL6pEPIsa43ylQPvAVax4H80BZyUnlstaaacRMlfro5B+ShlGcSvmNCv+9U/2bjK6fvxLKO74fPQoDpxmt11gnl1e8tJIrIaBfasoqBfIItLJ42WB4E5n3SacYNFDZ7w/AS9HnJTDOpPDqnDX+FdrfBOv+ByjPRpDG8abBilgqb4I03gqSJZZUdKzUC5YwFINRFkivMG8Y/g53wbPtSmHU1bmaJQF8as4xL0r0LYU+SQkoZvyenhr9zGkcvD7mQrwAAAABJRU5ErkJggg=="></image>
+                    <circle id="Oval-2" stroke="#CF0000" stroke-width="3" cx="198.861538" cy="67.5692308" r="35.6676923"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

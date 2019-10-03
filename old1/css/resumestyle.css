@@ -1,0 +1,286 @@
+/** JORDAN EARLE - CSS
+
+1. LAYOUT
+2. TYPOGRAPHY
+3. IMAGES
+
+**/
+
+/** LAYOUT **/
+
+body{
+  margin: 0px;
+  padding: 0px;
+  min-width: 1280px;}
+
+:selection {
+  background-color: #20253F;
+  color: #ffffff;}
+
+
+.Nav { background-color: #ffffff; height: 210px; }
+.Education { background-color: #F5F5F5; height: 730px;}
+.WorkExp { background-color: #fff; height: 780px; }
+.Create { background-color: #ffffff; height: 610px; }
+.Portfolio {
+              background:
+              linear-gradient(-180deg, rgba(43,43,43,0.77) 0%, rgba(0,0,0,0.40) 100%),
+              url(../img/jurassic.jpg);
+              background-size: cover;
+              height: 300px; }
+.Footer { height: 250px; background-color: #D0D0D0; }
+
+
+.NavBar {
+  padding-left: 2em;
+  padding-top: 2em;
+  display: table;
+  padding-bottom: 2em;}
+
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 50%;
+  opacity: 0.2;}
+
+.ResumeTitle {
+  padding-left: 2em;
+  margin-top: -1.5em;}
+
+.Position {
+  margin-left: 2em;
+  margin-top: 4em;
+  margin-bottom: 3em;
+}
+
+.Position2 {
+  margin-left: 0em;
+  margin-top: 4em;
+}
+
+.Position3 {
+  margin-left: 2em;
+  margin-top: 4em;
+}
+
+.LogoPosition {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10em;
+
+}
+
+.Description {
+  display: inline-block;
+}
+
+.Description2 {
+  display: inline-block;
+  width: 70%;
+  margin-left: -5.5em;
+}
+
+.DateCont {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30em;
+}
+
+.DateCont2 {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2em;
+}
+
+.DateCont3 {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -13em;
+}
+
+.PositionTextCont {
+  width: 60%;}
+
+
+
+  /** TYPOGRAPHY **/
+
+  .NavText {
+    font-family: "gesta",sans-serif;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 4em;}
+
+  a.NavLink {
+    text-decoration: none;
+    padding: 5px;
+    color: #BFBFBF}
+
+  a.NavLink1 {
+    text-decoration: none;
+    padding: 5px;
+    color: #747474;}
+
+  a.NavLink1:hover {
+    padding: 5px;
+    background-color: #EEEEEE;
+    transition: background .25s ease-in-out;}
+
+  a.NavLink:hover {
+    padding: 5px;
+    background-color: #EEEEEE;
+    transition: background .25s ease-in-out;}
+
+.ResumeHeader {
+  font-family: "gesta",sans-serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  color: #7A7A7A;
+  margin-bottom: -0.001em;}
+
+.ResumeSubtitle {
+  font-family: "gesta",sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #7A7A7A;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.8;}
+
+a.SubLink {
+  text-decoration: none;
+  border-bottom: 2px solid #9DD6DC;
+  color:#7A7A7A;
+  padding-top: 2px;
+  padding-bottom: 2px;}
+
+a.SubLink:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #9DD6DC;
+  color:#7A7A7A;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: #9DD6DC;
+  transition: background .25s ease-in-out;}
+
+.CategoryName {
+  font-family: "gesta",sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #7A7A7A;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.8;}
+
+.Category {
+  font-family: "gesta",sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: #7A7A7A;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.8;}
+
+.PositionTitle {
+  font-family: "gesta",sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #888888}
+
+.PositionSubTitle {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #888888}
+
+.PositionPrevious {
+  font-family: "gesta",sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #888888}
+
+.PositionPrevious2 {
+  font-family: "gesta",sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  color: #888888;
+  line-height: 1.4em;
+  opacity: 0.6;}
+
+.WorkListItem {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  font-weight: 200;
+  color: #888888;
+  line-height: 1.8em;
+  list-style-type: none;
+  }
+
+.Date {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: 400;
+  color: #888888;
+  opacity: 0.5;
+  display: inline-block;
+
+}
+
+.FooterType {
+  font-family: "gesta",sans-serif;
+  font-size:12px;
+  font-weight: 300;
+  letter-spacing: 0.2em;}
+
+.FooterLinkType {
+  font-family: "gesta",sans-serif;
+  font-size: 0.9em;
+  font-weight: 200;
+  line-height: 1.5em;}
+
+a.FooterLinkStyle  {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #9DD6DC;}
+
+a.FooterLinkStyle:hover  {
+  background: #9DD6DC;
+  Color: #000;
+  border-bottom: 2px solid #9DD6DC;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  transition: background .25s ease-in-out;}
+
+.EndQuote {
+  font-family: "gesta",sans-serif;
+  font-size:12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: 0.3;}
+
+  /** IMAGES **/
+
+.MonogramNav {
+  opacity: 0.4;
+  height: 70px;
+  display: inline-block;
+  padding-right: 18em;}
+
+.Logo {
+  height: 110px;
+  opacity: 0.7;}
+
+.Logo2 {
+  height: 110px;
+  opacity: 0.7;
+  padding-right: 7em;}
+
+.Logo3 {
+  width: 180px;
+  opacity: 0.7;
+  padding-right: 7em;}

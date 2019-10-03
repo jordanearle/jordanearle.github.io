@@ -1,0 +1,418 @@
+html {
+  max-width: 100vw;
+  min-width: 1280px;
+  overflow-x: hidden;}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #131313;
+  max-width: 100vw;
+  overflow-x: hidden;
+  -webkit-overflow-x: hidden;
+  min-width: 480px;}
+
+
+
+.scene {
+  height: 450px;
+  background-image: url(http://jordanearle.com/img/scenebg.jpg);
+  background-size: 100%;
+  background-color: purple;
+  margin-top: -1em;
+  overflow-y: hidden;}
+
+.create {
+  height: 450px;
+  background-image: url(http://jordanearle.com/img/createbg.jpg);
+  background-size: 100%;
+  background-color: purple;
+  margin-top: -1em;
+  overflow-y: hidden;}
+
+  .youtheast {
+    height: 450px;
+    background-image: url(http://jordanearle.com/img/youtheastbg.jpg);
+    background-size: 100%;
+    background-color: purple;
+    margin-top: -1em;
+    overflow-y: hidden;}
+
+    .thinkspace {
+      height: 450px;
+      background-image: url(http://jordanearle.com/img/thinkspacebg.jpg);
+      background-size: 100%;
+      background-color: purple;
+      margin-top: -1em;
+      overflow-y: hidden;}
+
+      .travellise {
+        height: 450px;
+        background-size: 100%;
+        background-color: #303030;
+        margin-top: -1em;
+        overflow-y: hidden;}
+
+
+  .yemain {
+    background-color: #363636;}
+
+    .thinkspacemain {
+      background-color: #363636;}
+
+    .alliance {
+      height: 450px;
+      background-image: url(http://jordanearle.com/img/alliancebg.jpg);
+      background-size: 100%;
+      background-color: purple;
+      margin-top: -1em;
+      overflow-y: hidden;}
+
+.CreateContent {
+  margin: auto;
+  width: 55%;
+  padding-top: 2em;}
+
+.CreateDesc {
+  font-family: "gesta",sans-serif;
+  font-size: 1.3em;
+  font-weight: 200;
+  line-height: 1.3em;
+  color: #8E8E8E;}
+
+.ItemDesc {
+  font-family: "gesta",sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.4em;
+  color: #8E8E8E;}
+
+.Bold {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.4em;
+  color: #8E8E8E;}
+
+.PortfolioItemImage {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 1em;}
+
+.PortfolioItem {
+  margin-bottom: 5em;}
+
+.timeline {
+  height: 650px;
+  background-color: #202020;
+  overflow-y: hidden;}
+
+.design {
+  height: 500px;
+  background-color: #2A2A2A;
+  overflow-y: hidden;
+  overflow-x: hidden;}
+
+.preview {
+  height: 750px;
+  background-color: #9048AC;
+  overflow-y: hidden;
+  overflow-x: hidden;}
+
+.footer {
+  background-color: #131313;
+  z-index: 3;
+  position: relative;
+  height: 250px;}
+
+.navbar{
+  width: 95%;
+  position: absolute;;
+  display: flex;
+  z-index: 1;
+  margin-top: 2em;
+  list-style: none;
+  flex-flow: row wrap;}
+
+.nav-item1 {
+  padding-right: 45%;}
+
+.nav-item {
+  padding: 5px;
+  margin-top: 10px;
+  padding-right: 3em;
+  color: #fff;
+  font-weight: light;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: Gesta, sans-serif;
+  opacity: 0.5;}
+
+  .nav-item:hover {
+  font-weight: light;
+  opacity: 1;
+  transition: all 0.3s ease 0s;}
+
+.navlink {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.6;}
+
+.navlink:hover, visited {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.6;}
+
+  .navlinklogo {
+    text-decoration: none;
+    opacity: 0.6;}
+
+  .navlinklogo:hover, visited {
+    text-decoration: none;
+    opacity: 1;
+    transition: all 0.3s ease 0s;}
+
+.sceneicon {
+  margin-top: 1em;
+  width:8em;
+  max-width: 10em;
+  position: relative;
+  padding-right: 2em;}
+
+.scenelogo {
+  margin-top: 1em;
+  height: 4em;
+  position: relative;}
+
+  .yelogo {
+    margin-top: 1em;
+    height: 4em;
+    position: relative;}
+
+    .alliancelogo {
+      margin-top: 1em;
+      height: 4em;
+      position: relative;}
+
+
+.scenelogocont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 150px;
+  width: 100%;
+  margin-top: 8em;
+  position: absolute;}
+
+.aboutscene {
+  color: #ccc;
+  font-weight: 100;
+  font-size: 1.3em;
+  font-family: Gesta, sans-serif;
+  line-height: 1.5em;
+  width: 100%;
+  text-align: center;}
+
+  .aboutalliance {
+    color: #000;
+    font-weight: 100;
+    font-size: 1.3em;
+    font-family: Gesta, sans-serif;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;}
+
+  .aboutcreate {
+    color: #ccc;
+    font-weight: 100;
+    font-size: 1.3em;
+    font-family: Gesta, sans-serif;
+    line-height: 1.5em;
+    width: 100%;
+    text-align: center;}
+
+    .aboutthinkspace {
+      color: #fff;
+      font-weight: 100;
+      font-size: 1.3em;
+      font-family: Gesta, sans-serif;
+      line-height: 1.5em;
+      width: 100%;
+      text-align: center;}
+
+.abouttext {
+  width: 40%;
+  margin: 0 auto;}
+
+  .abouttext2 {
+    width: 50%;
+    margin: 0 auto;
+  margin-top: -2em;}
+
+.sceneaboutcont {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16em;
+  position: absolute;}
+
+.scenehandimg {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.sceneflatimg {
+float: right;
+width: 50%;
+margin-top: -5em;
+margin-right: -3em;
+}
+
+.timelinetext {
+  float: right;
+  width: 40em;
+  margin-top: -3em;
+  height: 400px;
+}
+
+.timelinetextleft {
+  float: left;
+  width: 40em;
+  margin-top: -3em;
+  height: 400px;
+  margin-left: 3em;
+}
+
+.timelineh1 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 7em;
+  font-family: Gesta, sans-serif;
+  line-height: 0.9em;}
+
+  .timelineh1left {
+    color: #fff;
+    font-weight: 500;
+    font-size: 7em;
+    font-family: Gesta, sans-serif;
+    line-height: 0.9em;}
+
+.timetablepleft {
+  margin-top: -3em;
+  color: #fff;
+  opacity: 0.6;
+  font-weight: 100;
+  font-size: 1.3em;
+  font-family: Gesta, sans-serif;
+  line-height: 1.4em;
+  width: 80%;
+}
+
+.timetablep {
+  margin-top: -3em;
+  color: #fff;
+  opacity: 0.6;
+  font-weight: 100;
+  font-size: 1.3em;
+  font-family: Gesta, sans-serif;
+  line-height: 1.4em;
+  width: 80%;
+}
+
+.timetablep2 {
+  color: #fff;
+  opacity: 0.6;
+  font-weight: 100;
+  font-size: 1.3em;
+  font-family: Gesta, sans-serif;
+  line-height: 1.4em;
+  width: 80%;
+}
+
+.sceneprevimg {
+  bottom: 0;
+  margin-bottom: -35em;
+}
+
+.scenebutton {
+  padding: 30px;}
+
+.scenebuttonclass {
+  background-color:#55acee;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Gesta;
+	font-size:20px;
+	padding:14px 22px;
+	text-decoration:none;
+  position: relative;
+  margin: 0 auto;
+  width: 160px;
+  text-align: center;
+  display: block;}
+
+.scenebuttonclass:hover {
+	background-color:#4594D0;}
+
+.soondiv {
+  display: flex;
+  margin-top: 4em;
+}
+
+.comingsoon {
+  text-align: center;
+  color:#ffffff;
+  font-family:Gesta;
+  font-size:48px;
+  margin: 0 auto;
+  font-style: bold;
+  margin-bottom: 0.5em;
+}
+
+/* FOOTER */
+
+
+  .FooterType {
+    font-family: "gesta",sans-serif;
+    font-size:12px;
+    font-weight: 300;
+    letter-spacing: 0.2em;}
+
+  .FooterLinkType {
+    font-family: "gesta",sans-serif;
+    font-size: 0.9em;
+    font-weight: 200;
+    line-height: 1.5em;}
+
+  a.FooterLinkStyle  {
+    color: #ccc;
+    text-decoration: none;
+    border-bottom: 2px solid #B82063;}
+
+  a.FooterLinkStyle:hover  {
+    background: #B82063;
+    Color: #000;
+    border-bottom: 2px solid #B82063;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    transition: background .25s ease-in-out;}
+
+  .EndQuote {
+    font-family: "gesta",sans-serif;
+    font-size:12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    opacity: 0.3;
+    color: #7D7D7D;}
+
+  .footerhr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255,255,255, 0), rgba(255,255,255, 0.75), rgba(255,255,255, 0));
+    width: 50%;
+    opacity: 0.2;}
